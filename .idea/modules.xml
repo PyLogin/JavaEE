@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-01-inherit/chapter-01-inherit.iml" filepath="$PROJECT_DIR$/chapter-01-inherit/chapter-01-inherit.iml" />
     </modules>
   </component>
 </project>
