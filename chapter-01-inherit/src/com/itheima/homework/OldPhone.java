@@ -1,20 +1,12 @@
 package com.itheima.homework;
 
 public class OldPhone {
-    String brand;
-    String name;
+    private String brand;
+    private double price;
 
-    public void call(String name) {
-        System.out.println("给" + name + "打电话");
-    }
-
-    public void senMessage(){
-        System.out.println("发短信");
-    }
-
-    public OldPhone(String brand, String name) {
+    public OldPhone(String brand, double price) {
         this.brand = brand;
-        this.name = name;
+        this.price = price;
     }
 
     public OldPhone() {
@@ -29,11 +21,23 @@ public class OldPhone {
         this.brand = brand;
     }
 
-    public String getName() {
-        return name;
+    public double getPrice() {
+        return price;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(double price) {
+        this.price = price;
+    }
+
+    public void call(String name) {
+        System.out.println("给" + name + "打电话");
+    }
+
+    public void show(){
+        System.out.println("显示手机号");
+    }
+
+    public void senMessage(){
+        System.out.println("发短信");
     }
 }

@@ -1,18 +1,18 @@
 package com.itheima.运动员体系;
 
-public abstract class Athlete extends Person{
-    public Athlete() {
-    }
-
-    public Athlete(int age, String name) {
-        super(age, name);
-    }
-
+public abstract class Player extends Person{
     @Override
     public void eat() {
-        super.eat();
         System.out.println("喝牛奶，吃牛肉");
     }
 
-    public void study() {}
+    public abstract void study();
+
+    public Player() {
+        super();
+    }
+
+    public Player(int age, String name) {
+        super(age, name);
+    }
 }

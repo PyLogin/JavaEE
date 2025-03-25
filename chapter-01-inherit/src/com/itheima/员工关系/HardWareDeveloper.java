@@ -12,4 +12,9 @@ public class HardWareDeveloper extends Mainter {
     public HardWareDeveloper(int id, String name) {
         super(id, name);
     }
+
+    @Override
+    public void certificate() {
+        System.out.println("硬件维护四级证书");
+    }
 }

@@ -11,5 +11,8 @@ public class Test {
         netWorkDeveloper.work();
         javaEEDeveloper.work();
         hardWareDeveloper.work();
+
+        hardWareDeveloper.certificate();
+        netWorkDeveloper.certificate();
     }
 }

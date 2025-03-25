@@ -1,12 +1,10 @@
 package com.itheima.员工关系;
 
-public class Employee {
+public abstract class Employee {
     private String name;
     private int id;
 
-    public void work() {
-        System.out.println("员工正在工作中....");
-    }
+    public abstract void work();
 
     public Employee() {
     }

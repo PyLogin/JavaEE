@@ -1,17 +1,20 @@
 package com.itheima.运动员体系;
 
-public abstract class Employee {
+public abstract class Person {
+    // 定义私有成员变量
     private String name;
     private int age;
 
-    public Employee() {
+    // 定义有参/无参构造方法
+    public Person() {
     }
 
-    public Employee(int age, String name) {
+    public Person(int age, String name) {
         this.age = age;
         this.name = name;
     }
 
+    // 提供GET/SET方法
     public String getName() {
         return name;
     }
@@ -27,7 +30,6 @@ public abstract class Employee {
     public void setAge(int age) {
         this.age = age;
     }
-    public void eat() {
-        System.out.println("吃饭啦");
-    }
+    // 提供抽象eat方法
+    public abstract void eat();
 }

@@ -12,4 +12,9 @@ public class NetWorkDeveloper extends Mainter {
     public NetWorkDeveloper(int id, String name) {
         super(id, name);
     }
+
+    @Override
+    public void certificate() {
+        System.out.println("软件开发四级证书");
+    }
 }
