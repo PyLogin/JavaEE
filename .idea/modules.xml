@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-01-inherit/chapter-01-inherit.iml" filepath="$PROJECT_DIR$/chapter-01-inherit/chapter-01-inherit.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter-02-interface/chapter-02-interface.iml" filepath="$PROJECT_DIR$/chapter-02-interface/chapter-02-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-03-innerclass/chapter-03-innerclass.iml" filepath="$PROJECT_DIR$/chapter-03-innerclass/chapter-03-innerclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-04-api/chapter-04-api.iml" filepath="$PROJECT_DIR$/chapter-04-api/chapter-04-api.iml" />
     </modules>
   </component>
 </project>
