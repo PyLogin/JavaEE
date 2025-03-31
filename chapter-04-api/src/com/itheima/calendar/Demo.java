@@ -13,6 +13,10 @@ public class Demo {
         int year = calendar.get(Calendar.YEAR);
         System.out.println(year + "-" + month + "-" + day);
 
+        calendar.add(Calendar.MONTH, -1);
+        System.out.println(calendar);
+
+
 
 
     }
