@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Demo1 {
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -18,4 +18,6 @@ public class Demo1 {
         list.remove(Integer.valueOf(2));
         System.out.println(list);
     }
+
+
 }
